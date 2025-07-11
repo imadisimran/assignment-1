@@ -24,7 +24,17 @@
     border-radius: 15px;
     height:fit-content;
     border: none;
+    cursor:pointer;
+    transition-property: box-shadow;
+    transition-duration: 1s;
 }
+
+
+
+.common-btn:hover{
+    box-shadow: 10px 10px 30px black;
+}
+
 
 .capitalize{
     text-transform: capitalize;
