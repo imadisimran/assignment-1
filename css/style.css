@@ -288,3 +288,42 @@ footer{
     text-decoration: none;
     color:#8987A1;
 }
+
+
+/* reivew */
+
+.user-review{
+    margin-top: 140px;
+}
+
+.user-review-title{
+    font-size:42px;
+    text-align: center;
+}
+
+.card h4{
+    font-size: 29px;
+}
+
+.card-container{
+    display:flex;
+    justify-content: space-between;
+    gap:20px;
+}
+
+.user-info{
+    display:flex;
+    justify-content: left;
+    gap:20px;
+
+}
+
+.pic-text span{
+    display:block;
+}
+
+.card{
+    border:2px solid #e4e4e4;
+    padding:20px;
+    border-radius: 10px;
+}
