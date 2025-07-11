@@ -5,6 +5,14 @@
   font-style: normal;
 }
 
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* common */
 .common-btn{
     font-weight: 700;
@@ -119,3 +127,45 @@ main{
 .action-pic img{
     width:100%;
 }
+
+
+/* productive user */
+
+
+.productive-user-title{
+    font-size:38px;
+    text-align: center;
+    font-weight: 700;
+    margin-top:0;
+    margin-bottom: 40px;
+}
+
+
+.productive-user{
+    background-color: rgba(78, 71, 255, 0.1);
+    padding:50px 80px;
+    margin-top:150px;
+    border-radius: 24px;
+}
+
+.productive-user-contents{
+    display:flex;
+    justify-content: space-between;
+}
+
+.productive-user-content{
+    text-align: center;
+}
+
+.productive-user-content h2{
+    color:#4E47FF;
+    font-size:80px;
+    font-weight: 700;
+    margin-bottom:20px;
+}
+
+.productive-user-content p{
+    color:rgba(0, 0, 0, 0.5);
+    font-size:20px;
+}
+
