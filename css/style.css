@@ -169,3 +169,31 @@ main{
     font-size:20px;
 }
 
+.focus-content h2{
+    font-weight: 700;
+    font-size:50px;
+    margin-bottom: 20px;
+}
+
+.focus-content p{
+    font-size: 16px;
+    color:rgba(0, 0, 0, 0.5);
+    margin-bottom:20px;
+}
+
+.focus-content h2, .focus-content p{
+    text-align: center;
+}
+
+
+.focus-pic{
+    border-radius: 48px;
+    width: 840px;
+    margin:auto;
+    overflow: hidden;
+    margin-top:20px;
+}
+
+.focus{
+    margin-top:137px;
+}
