@@ -169,6 +169,8 @@ main{
     font-size:20px;
 }
 
+/* focus */
+
 .focus-content h2{
     font-weight: 700;
     font-size:50px;
@@ -196,4 +198,46 @@ main{
 
 .focus{
     margin-top:137px;
+}
+
+
+/* in touch */
+
+.in-touch{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top:120px;
+}
+
+.in-touch h1{
+    font-size: 97px;
+    width: 528px;
+}
+
+.in-touch-form{
+    width:497px;
+}
+
+.in-touch-form label{
+    font-size:18px;
+    margin-bottom: 10px;
+    font-weight:500;
+}
+
+.in-touch-form input, .in-touch-form textarea{
+    font-size: 20px;
+    padding:20px 32px;
+    color:rgba(0, 0, 0, 0.5);
+    width:420px;
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+.in-touch-form input[type="submit"]{
+    color:white;
+    border:none;
+    margin:auto;
 }
