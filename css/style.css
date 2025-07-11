@@ -222,12 +222,10 @@ main{
 
 .in-touch h1{
     font-size: 97px;
-    width: 528px;
-    margin-right:0px;
 }
 
 .in-touch-form{
-    width:497px;
+    
 }
 
 .in-touch-form label{
@@ -240,7 +238,8 @@ main{
     font-size: 20px;
     padding:20px 32px;
     color:rgba(0, 0, 0, 0.5);
-    width:420px;
+    /* width:420px; */
+    width:400px;
     border: 0.5px solid rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     margin-bottom: 20px;
@@ -250,7 +249,7 @@ main{
 .in-touch-form input[type="submit"]{
     color:white;
     border:none;
-    margin:auto;
+    width:464px;
 }
 
 
